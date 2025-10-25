@@ -34,7 +34,7 @@
         default_layer {
             label = "QWRT";
             bindings = <
-                &lt 4 TAB      &kp Q     &kp W         &kp E        &kp R      &kp T
+                &kp TAB      &kp Q     &kp W         &kp E        &kp R      &kp T
                 &kp Y         &kp U     &kp I         &kp O        &kp P      &kp BACKSPACE
 
                 &kp LEFT_SHIFT        &kp A     &kp S         &kp D        &kp F      &kp G
@@ -43,8 +43,8 @@
                 &kp LCTRL      &kp Z     &kp X         &kp C        &kp V      &kp B
                 &kp N           &kp M     &kp COMMA     &kp DOT      &kp SLASH  &kp RCTRL
 
-                &mkp RCLK  &mkp LCLK  &kp LALT  &kp LGUI    &lt 2 SPACE
-                &kp ENTER  &mo 1  &lt 3 ESCAPE
+                &kp LALT  &kp LGUI &mkp RCLK  &mkp LCLK  &lt 3 SPACE
+                &kp ENTER  &mo 1  &lt 4 ESCAPE
             >;
         };
 
@@ -52,7 +52,7 @@
             label = "NUM";
             bindings = <
                 &trans  &kp GRAVE       &kp BACKSLASH   &none  &kp APOSTROPHE   &kp LS(APOSTROPHE)
-                &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET) &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+                &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET) &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DELETE
 
                 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5
                 &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
@@ -85,17 +85,17 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-                &none  &none  &none  &none  &none  &none
-                &none  &none  &none  &none  &none  &none
+                &kp ESC  &none  &none  &none  &none  &none
+                &none  &none  &kp UP   &none  &none  &kp LA(BACKSPACE)
 
-                &none  &none  &none  &none  &none  &none
-                &none  &none  &none  &none  &none  &none
+                &none  &none  &none  &none  &kp LG(F)  &none
+                &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none
 
-                &none  &none  &none  &none  &none  &none
-                &none  &none  &none  &none  &none  &none
+                &none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &none
+                &kp LG(N)  &none  &none  &none  &none  &none
 
-                &none  &none  &none  &none  &none
-                &none  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans
             >;
         };
 
