@@ -85,17 +85,17 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-                &kp ESC  &none  &none  &none  &none  &none
-                &none  &none  &kp UP   &none  &none  &kp LA(BACKSPACE)
+                &kp ESC  &none  &none  &none  &kp LG(R)  &none
+                &none  &none  &kp UP   &none  &kp LG(P)  &kp LA(BACKSPACE)
 
-                &none  &none  &none  &none  &kp LG(F)  &none
+                &none  &none  &kp LG(S)  &none  &kp LG(F)  &none
                 &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none
 
                 &none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(V))
                 &kp LG(N)  &none  &none  &none  &none  &none
 
                 &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans
+                &kp LG(SPACE)  &trans  &trans
             >;
         };
 
