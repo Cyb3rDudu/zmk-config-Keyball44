@@ -51,7 +51,7 @@
         number_layer {
             label = "NUM";
             bindings = <
-                &trans  &kp GRAVE       &kp BACKSLASH   &none  &kp APOSTROPHE   &kp LS(APOSTROPHE)
+                &kp ESC  &kp GRAVE       &kp BACKSLASH   &none  &kp APOSTROPHE   &kp LS(APOSTROPHE)
                 &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET) &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 
                 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5
@@ -85,7 +85,7 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-                &kp ESC  &none  &none  &none  &kp LG(R)  &none
+                &trans  &none  &none  &none  &kp LG(R)  &none
                 &none  &none  &kp UP   &none  &kp LG(P)  &kp LA(BACKSPACE)
 
                 &none  &none  &kp LG(S)  &none  &kp LG(F)  &none
@@ -95,7 +95,7 @@
                 &kp LG(N)  &none  &none  &none  &none  &none
 
                 &trans  &trans  &trans  &trans  &trans
-                &kp LG(SPACE)  &trans  &trans
+                &kp LG(SPACE)  &kp RGUI  &trans
             >;
         };
 
