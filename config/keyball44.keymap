@@ -89,7 +89,7 @@
                 &trans  &none  &none  &none  &kp LG(R)  &none
                 &none  &kp LG(LA(LEFT))  &kp UP   &kp LG(LA(RIGHT))  &kp LG(P)  &kp LA(BACKSPACE)
 
-                &none  &none  &kp LG(S)  &none  &kp LG(F)  &none
+                &none  &kp LG(A)  &kp LG(S)  &none  &kp LG(F)  &none
                 &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none
 
                 &none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(V))
