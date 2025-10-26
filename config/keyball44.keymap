@@ -14,13 +14,13 @@
 &nice_view_spi { cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>; };
 
 &lt {
-    tapping-term-ms = <100>;
-    flavor = "hold-preferred";
+    tapping-term-ms = <150>;
+    flavor = "tap-preferred";
     quick-tap-ms = <80>;
 };
 
 &mt {
-    tapping-term-ms = <200>;
+    tapping-term-ms = <100>;
     flavor = "tap-preferred";
     quick-tap-ms = <150>;
 };
