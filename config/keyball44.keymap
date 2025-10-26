@@ -14,7 +14,7 @@
 &nice_view_spi { cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>; };
 
 &lt {
-    tapping-term-ms = <200>;
+    tapping-term-ms = <240>;
     flavor = "balanced";
     quick-tap-ms = <150>;
 };
@@ -43,7 +43,7 @@
                 &kp LCTRL       &kp Z        &kp X        &kp C        &kp V        &kp B
                 &kp N           &kp M        &kp COMMA    &kp DOT      &kp SLASH    &kp RCTRL
 
-                &kp LALT        &kp LGUI     &mkp RCLK    &mkp LCLK    &lt 3 SPACE
+                &kp RALT        &kp LGUI     &mkp RCLK    &mkp LCLK    &lt 3 SPACE
                 &kp ENTER       &mo 1        &kp ESCAPE
             >;
         };
