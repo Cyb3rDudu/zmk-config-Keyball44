@@ -43,8 +43,8 @@
                 &kp LCTRL       &kp Z        &kp X        &kp C        &kp V        &kp B
                 &kp N           &kp M        &kp COMMA    &kp DOT      &kp SLASH    &kp RCTRL
 
-                &kp RALT        &kp LGUI     &mkp RCLK    &mkp LCLK    &lt 3 SPACE
-                &kp ENTER       &mo 1        &kp ESCAPE
+                &kp LG(LA(LEFT))        &kp LG(LA(RIGHT))     &kp LGUI    &mo 1    &kp SPACE
+                &kp ENTER       &mo 2        &kp LALT
             >;
         };
 
@@ -68,34 +68,34 @@
         mouse_layer {
             label = "NAV";
             bindings = <
-                &none   &none        &none        &none        &none        &none
-                &none   &mkp LCLK    &kp UP       &mkp RCLK    &none        &kp DELETE
+                &kp ESC         &none        &mkp RCLK    &kp UP       &mkp LCLK        &mo 3
+                &none           &mkp LCLK    &kp UP       &mkp RCLK    &none            &kp DELETE
 
-                &mo 4   &none        &mkp RCLK    &mkp MCLK    &mkp LCLK    &mo 3
-                &none   &kp LEFT     &kp DOWN     &kp RIGHT    &none        &none
+                &none           &none        &kp LEFT     &kp DOWN     &kp RIGHT        &kp LG(LS(V))
+                &none           &none        &none        &none        &none            &none
 
-                &none   &kp LG(Z)    &kp LG(X)    &kp LG(C)    &kp LG(V)    &none
-                &none   &none        &mkp MCLK    &none        &none        &none
+                &none           &none        &none        &none        &none            &none
+                &none           &none        &none        &none        &none            &none
 
-                &trans  &trans       &trans       &trans       &trans
-                &trans  &trans       &trans
+                &trans          &trans       &trans       &trans       &trans
+                &kp LG(SPACE)   &kp RGUI     &trans
             >;
         };
 
         scroll_layer {
             label = "SCROLL";
             bindings = <
-                &trans  &none             &none        &none             &kp LG(R)  &none
-                &none   &kp LG(LA(LEFT))  &kp UP       &kp LG(LA(RIGHT)) &kp LG(P)  &kp LA(BACKSPACE)
+                &none   &none   &none   &none   &none   &none
+                &none   &none   &none   &none   &none   &none
 
-                &none   &kp LG(A)         &kp LG(S)    &none             &kp LG(F)  &none
-                &none   &kp LEFT          &kp DOWN     &kp RIGHT         &none      &none
+                &none   &none   &none   &none   &none   &none
+                &none   &none   &none   &none   &none   &none
 
-                &none   &kp LG(Z)         &kp LG(X)    &kp LG(C)         &kp LG(V)  &kp LG(LS(V))
-                &kp LG(N) &none           &none        &none             &none      &none
+                &none   &none   &none   &none   &none   &none
+                &none   &none   &none   &none   &none   &none
 
-                &trans  &trans            &trans       &trans            &trans
-                &kp LG(SPACE) &kp RGUI    &trans
+                &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans
             >;
         };
 
