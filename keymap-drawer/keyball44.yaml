@@ -39,9 +39,9 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - Gui+Alt+$$mdi:arrow-left-bold$$
   - Gui+Alt+$$mdi:arrow-right-bold$$
-  - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-space$$', h: NAVI}
+  - $$mdi:keyboard-space$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - NUM
   - $$mdi:apple-keyboard-option$$
@@ -131,7 +131,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:keyboard-space$$
   - LGUI
   - {t: '$$mdi:transfer$$', type: trans}
@@ -176,7 +176,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
