@@ -15,8 +15,8 @@
 
 &lt {
     tapping-term-ms = <240>;
-    flavor = "balanced";
-    quick-tap-ms = <150>;
+    flavor = "hold-preferred";
+    quick-tap-ms = <0>;
 };
 
 &mt {
@@ -43,7 +43,7 @@
                 &kp LCTRL       &kp Z        &kp X        &kp C        &kp V        &kp B
                 &kp N           &kp M        &kp COMMA    &kp DOT      &kp SLASH    &kp RCTRL
 
-                &kp LG(LA(LEFT))        &kp LG(LA(RIGHT))     &kp LGUI    &mo 2    &kp SPACE
+                &kp LG(LA(LEFT))        &kp LG(LA(RIGHT))     &kp LALT    &kp LGUI   &lt 3 SPACE
                 &kp ENTER       &mo 1        &kp LALT
             >;
         };
@@ -68,8 +68,8 @@
         mouse_layer {
             label = "NAV";
             bindings = <
-                &kp ESC         &none        &mkp RCLK    &kp UP       &mkp LCLK        &mo 3
-                &none           &mkp LCLK    &kp UP       &mkp RCLK    &none            &kp DELETE
+                &kp TAB         &none        &mkp RCLK    &kp UP       &mkp LCLK        &mo 3
+                &trans          &trans       &trans       &trans       &trans           &kp DELETE
 
                 &none           &none        &kp LEFT     &kp DOWN     &kp RIGHT        &kp LG(LS(V))
                 &none           &none        &none        &none        &none            &none
@@ -85,17 +85,17 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-                &none   &none   &none   &none   &none   &none
-                &none   &none   &none   &none   &none   &none
+                &kp TAB         &none        &none        &none        &none            &none
+                &none           &mkp LCLK    &kp UP       &mkp RCLK    &none            &kp DELETE
 
-                &none   &none   &none   &none   &none   &none
-                &none   &none   &none   &none   &none   &none
+                &none           &none        &none        &none        &none            &kp LG(LS(V))
+                &none           &kp LEFT     &kp DOWN     &kp RIGHT    &none            &none
 
-                &none   &none   &none   &none   &none   &none
-                &none   &none   &none   &none   &none   &none
+                &none           &none        &none        &none        &none            &none
+                &none           &none        &none        &none        &none            &none
 
-                &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans
+                &trans          &trans       &trans       &trans       &trans
+                &kp LG(SPACE)   &kp LGUI     &trans
             >;
         };
 
