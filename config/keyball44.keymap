@@ -43,7 +43,7 @@
                 &kp LCTRL       &kp Z        &kp X        &kp C        &kp V        &kp B
                 &kp N           &kp M        &kp COMMA    &kp DOT      &kp SLASH    &kp RCTRL
 
-                &kp LG(LA(LEFT))        &kp LG(LA(RIGHT))     &mkp RCLK    &mkp LCLK   &lt 2 SPACE
+                &kp LG(LA(LEFT))        &kp LG(LA(RIGHT))     &mkp LCLK    &kp SPACE   &mkp RCLK
                 &kp ENTER       &mo 1        &kp LALT
             >;
         };
