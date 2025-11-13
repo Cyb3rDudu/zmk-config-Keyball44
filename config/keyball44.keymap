@@ -43,8 +43,8 @@
                 &kp LCTRL       &kp Z        &kp X        &kp C        &kp V        &kp B
                 &kp N           &kp M        &kp COMMA    &kp DOT      &kp SLASH    &kp RCTRL
 
-                &kp LG(LA(LEFT))        &kp LG(LA(RIGHT))     &mkp LCLK    &lt 2 SPACE   &mkp RCLK
-                &kp ENTER       &mo 1        &kp LALT
+                &kp LG(LA(LEFT))        &kp LG(LA(RIGHT))     &mo 3     &mkp LCLK       &kp SPACE
+                &kp ENTER       &mo 1        &kp LG(SPACE)
             >;
         };
 
@@ -60,7 +60,7 @@
                 &trans               &none                 &none          &none             &none                 &none
                 &kp UNDERSCORE       &kp MINUS             &kp EQUAL      &kp PLUS          &trans                &trans
 
-                &trans               &trans                &trans         &trans            &trans
+                &trans               &trans                &mkp RCLK         &trans            &trans
                 &trans               &trans                &trans
             >;
         };
@@ -78,24 +78,24 @@
                 &trans          &trans       &trans       &trans       &trans            &mo 3
 
                 &trans          &trans       &trans       &trans       &trans
-                &kp LG(SPACE)   &kp LGUI     &trans
+                &kp LALT   &kp LGUI     &kp UP
             >;
         };
 
         scroll_layer {
             label = "SCROLL";
             bindings = <
-                &trans          &trans       &trans       &trans       &trans           &trans
-                &trans          &trans       &trans       &trans       &trans           &trans
+                &kp TAB         &trans          &trans       &trans       &trans       &trans
+                &trans          &trans        &kp UP       &trans          &trans            &kp DELETE
 
                 &trans          &trans       &trans       &trans       &trans           &trans
-                &trans          &trans       &trans       &trans       &trans           &trans
+                &trans           &kp LEFT     &kp DOWN     &kp RIGHT    &trans            &kp LG(LS(V))
 
                 &trans          &trans       &trans       &trans       &trans           &trans
                 &trans          &trans       &trans       &trans       &trans           &trans
 
                 &trans          &trans       &trans       &trans       &trans
-                &trans          &trans       &trans
+                &kp LALT   &kp LGUI     &kp UP
             >;
         };
 
